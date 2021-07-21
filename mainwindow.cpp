@@ -21,7 +21,6 @@ MainWindow::~MainWindow() {
 void MainWindow::startButtonReleased() {
 
     // some UI housekeeping:
-//    cleanUp();
     ui->thread1TextEdit->clear();
     ui->thread2TextEdit->clear();
     ui->thread3TextEdit->clear();
