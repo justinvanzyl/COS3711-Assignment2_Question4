@@ -10,10 +10,12 @@ CONFIG += c++11
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    primefinder.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    primefinder.h
 
 FORMS += \
     mainwindow.ui
